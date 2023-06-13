@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23290195-a8c6-4fca-b401-2ab6aa8b0328" name="Changes" comment="Queues">
+    <list default="true" id="23290195-a8c6-4fca-b401-2ab6aa8b0328" name="Changes" comment="Array Implementation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/ArrayQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/Main.java" afterDir="false" />
@@ -60,12 +60,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686280153630</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Array Implementation">
+      <created>1686557494211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686557494211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="introduction to Queues" />
     <MESSAGE value="Queues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Queues" />
+    <MESSAGE value="Array Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Array Implementation" />
   </component>
 </project>
