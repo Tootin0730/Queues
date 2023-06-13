@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23290195-a8c6-4fca-b401-2ab6aa8b0328" name="Changes" comment="Circular Queue Implementation (pt.1)">
+    <list default="true" id="23290195-a8c6-4fca-b401-2ab6aa8b0328" name="Changes" comment="Circular Queue Implementation (pt.2)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/ArrayQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/ArrayQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/academy/learnprogramming/Queues/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +73,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686632865857</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Circular Queue Implementation (pt.2)">
+      <created>1686633536474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686633536474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -83,6 +88,7 @@
     <MESSAGE value="Queues" />
     <MESSAGE value="Array Implementation" />
     <MESSAGE value="Circular Queue Implementation (pt.1)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Circular Queue Implementation (pt.1)" />
+    <MESSAGE value="Circular Queue Implementation (pt.2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Circular Queue Implementation (pt.2)" />
   </component>
 </project>

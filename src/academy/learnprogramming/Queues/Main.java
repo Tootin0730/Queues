@@ -1,52 +1,33 @@
 package academy.learnprogramming.Queues;
 
+import java.util.LinkedList;
+
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println(checkForPalindrome("abccba"));
+        System.out.println(checkForPalindrome("Was it a car or a cat I saw?"));
+        System.out.println(checkForPalindrome("I did, did I?"));
+        System.out.println(checkForPalindrome("hello"));
+        System.out.println(checkForPalindrome("Don't nod"));
+    }
 
-        Employee janeJones = new Employee("Jane", "Jones", 123);
-        Employee johnDoe = new Employee("John", "Doe", 4567);
-        Employee marySmith = new Employee("Mary", "Smith", 22);
-        Employee mikeWilson = new Employee("Mike", "Wilson", 3245);
-        Employee billEnd = new Employee("Bill", "End", 78);
-
-        ArrayQueue queue = new ArrayQueue(5);
-
-        queue.add(janeJones);
-        queue.add(johnDoe);
-        queue.remove();
-        queue.add(marySmith);
-        queue.remove();
-        queue.add(mikeWilson);
-        queue.remove();
-        queue.add(billEnd);
-        queue.remove();
-        queue.add(janeJones);
-
-        queue.printQueue();
-
-//      queue.add(janeJones);
-//      queue.add(johnDoe);
-//      queue.add(marySmith);
-//      queue.add(mikeWilson);
-//      queue.add(billEnd);
-//      queue.printQueue();
-//
-//      queue.remove();
-//      queue.remove();
-//      queue.printQueue();
-//
-//      System.out.println(queue.peek());
-//      queue.remove();
-//      queue.remove();
-//      queue.remove();
-//      queue.remove();
-//
-//      queue.add(mikeWilson);
-//
-//
-//      queue.printQueue();
-
-
+    public static boolean checkForPalindrome(String string) {
+        LinkedList<Character> stack = new LinkedList<Character>();
+        LinkedList<Character> queue = new LinkedList<Character>();
+        String lowerCase = string.toLowerCase();
+        for (int i = 0; i < lowerCase.length(); i++) {
+            char c = lowerCase.charAt(i);
+            if (c >= 'a' && c <= 'z') {
+                queue.addLast(c);
+                stack.push(c);
+            }
+        }
+        while (!stack.isEmpty()) {
+            if (!stack.pop().equals(queue.removeFirst())) {
+                return false;
+            }
+        }
+        return true;
     }
 }
