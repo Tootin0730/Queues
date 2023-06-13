@@ -24,5 +24,29 @@ public class Main {
         queue.add(janeJones);
 
         queue.printQueue();
+
+//      queue.add(janeJones);
+//      queue.add(johnDoe);
+//      queue.add(marySmith);
+//      queue.add(mikeWilson);
+//      queue.add(billEnd);
+//      queue.printQueue();
+//
+//      queue.remove();
+//      queue.remove();
+//      queue.printQueue();
+//
+//      System.out.println(queue.peek());
+//      queue.remove();
+//      queue.remove();
+//      queue.remove();
+//      queue.remove();
+//
+//      queue.add(mikeWilson);
+//
+//
+//      queue.printQueue();
+
+
     }
 }

@@ -1,7 +1,6 @@
 package academy.learnprogramming.Queues;
 
 public class Employee {
-
     private String firstName;
     private String lastName;
     private int id;
@@ -46,12 +45,14 @@ public class Employee {
         if (!firstName.equals(employee.firstName)) return false;
         return lastName.equals(employee.lastName);
     }
+
     public int hashCode() {
         int result = firstName.hashCode();
         result = 31 * result + lastName.hashCode();
         result = 31 * result + id;
         return result;
     }
+
     public String toString() {
         return "Employee{" +
                 "firstName='" + firstName + '\'' +
